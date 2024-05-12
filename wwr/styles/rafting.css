@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Freeman&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #DDA15E;
+    --secondary-color: #FEFAE0;
+    --accent1-color: #BC6C25;
+    --accent2-color: #606C38;
+
+    --heading-font: 'freeman', serif;
+    --paragraph-font: serif;
+
+    --nav-background-color: #BC6C25;
+    --nav-link-color: #FEFAE0;
+    --nav-hover-link-color: #606C38;
+    --nav-hover-background-color: #DDA15E;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  p {
+    font-family: var(--paragraph-font);
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  div .hero {
+    position: relative;
+  }
+
+  .hero img {
+    display: block;
+    width: 70%;
+    height: auto;
+  }
+
+  h1 {
+    position:absolute;
+    top: 350px;
+    left: 350px;
+    padding: 12px;
+    background: rgba(105, 105, 102, 0.501);
+  }
+
+
+  div article {
+    position:absolute;
+    top: 500px; 
+    left: 200px;
+    width: 450px;
+    background: rgb(254, 250, 224, 70%);
+    padding: 10px;
+  }
+
+  article img {
+    float: right;
+  }
