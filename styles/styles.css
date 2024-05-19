@@ -28,10 +28,11 @@ nav a {
 }
 
 h1 {
+    font-size: 23px;
+    text-align: center;
     color: steelblue;
-    padding: 10px;
     border-bottom: 1px solid steelblue;
-    
+    margin-bottom: 10px;
 }
 
 img {
@@ -92,7 +93,6 @@ footer {
 
 .grid {
     display: grid;
-    grid-area: 1/4;
     align-items: center;
 }
 main {
