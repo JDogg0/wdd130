@@ -139,6 +139,11 @@
     grid-row: 2/2;
   }
 
+  figure img {
+    width: 250px;
+    height: auto;
+  }
+
   footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -153,11 +158,14 @@
     align-items: center;
   }
 
+  .sociallinks a img {
+    width: 40px;
+    height: auto;
+  }
+
   .sociallinks {
     grid-column: 3/4;
     grid-row: 2;
-    width: 40px;
-    height: auto;
     display: flex;
     justify-self: center;
   }
