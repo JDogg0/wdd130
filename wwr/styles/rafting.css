@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #DDA15E;
+    --primary-color: #DDA15E; 
     --secondary-color: #FEFAE0;
-    --accent1-color: #BC6C25;
+    --accent1-color: #9f5310;
     --accent2-color: #606C38;
 
     --heading-font: 'freeman', serif;
@@ -46,8 +46,8 @@
 
   h1 {
     position:absolute;
-    top: 350px;
-    left: 350px;
+    top: 10em;
+    left: 10em;
     padding: 12px;
     background: rgba(105, 105, 102, 0.501);
   }
@@ -55,8 +55,8 @@
 
   div article {
     position:absolute;
-    top: 500px; 
-    left: 200px;
+    top: 28em;
+    left: 18em;
     width: 450px;
     background: rgb(254, 250, 224, 70%);
     padding: 10px;
@@ -65,3 +65,102 @@
   article img {
     float: right;
   }
+
+  header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    background: #606C38;
+  }
+
+  .logo-image {
+    grid-column: 1/2;
+    display: flex;
+    justify-self: center;
+    width: 150px;
+    height: auto;
+    border: 5px solid var(--primary-color);
+    background-color: #FEFAE0;
+
+    
+  }
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu a {
+    display: block;
+    color: var(--accent1-color);
+    background:  var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border: 1px solid var(--accent1-color);
+    text-decoration: none;
+  }
+
+  .manu a:hover {
+    color: tomato;
+  }
+
+
+  .history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30px 1fr;
+    margin: 20px 0px 20px 0px;
+    border-top: 2px  solid var(--nav-background-color);
+    border-bottom: 2px  solid var(--nav-background-color);
+  }
+  .history h2 {
+    grid-area: 1/2/1/3;
+  }
+  .history p {
+    grid-area: 2/1/2/3 
+  }
+  .history img {
+    width: 100px;
+    height: auto;
+    grid-area: 2/3/2/4 
+  }
+
+  .adventure-sec {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 1fr;
+  }
+
+  .adventure-sec h2 {
+    grid-area: 1/3;
+  }
+
+  figure {
+    grid-row: 2/2;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #606C38;
+  }
+
+  footer p {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sociallinks {
+    grid-column: 3/4;
+    grid-row: 2;
+    width: 40px;
+    height: auto;
+    display: flex;
+    justify-self: center;
+   
+    
+  }
+
