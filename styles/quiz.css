@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #e8e6e6;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+    color: navy;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    align-content: center;
+    display: grid;
+    grid-gap: 1.5rem;
+}
+
+button {
+    height: 50px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+  
+label {
+    text-align: left;
+}
+
+input, select, textarea, select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+p {
+    background-color: gray;
+    color:black;
+    justify-self: center;
+    padding: 10px 100px 10px 100px;
+}
