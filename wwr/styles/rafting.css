@@ -170,7 +170,12 @@ form h3 {
   text-align: left;
 }
 
-.part1 h2, h3, p {
+.part1 h1 {
+  position: inherit;
+  background: none;
+}
+
+.part1 h1, h2, p {
   text-align: center;
 }
 
